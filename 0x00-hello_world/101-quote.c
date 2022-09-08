@@ -1,4 +1,5 @@
-nclude <stdio.h>
+#include <stdio.h>
+
 
 /**
 * main - prints to string
@@ -19,5 +20,4 @@ __asm__ ("syscall"
 "S" (s),
 "d" (l));
 return (1);
-
-} 
+}
