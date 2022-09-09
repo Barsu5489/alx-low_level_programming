@@ -15,9 +15,6 @@ for (letters = 'a'; letters <= 'z'; letters++)
 if (letters == 'q' && letters == 'e')
 {
 continue;
-}
-else
-{
 putchar(letters);
 }
 }
