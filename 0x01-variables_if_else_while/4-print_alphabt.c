@@ -23,4 +23,3 @@ putchar(letters);
 putchar('\n');
 return (0);
 }
-
