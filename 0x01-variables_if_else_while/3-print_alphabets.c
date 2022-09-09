@@ -19,6 +19,6 @@ for (lowalpha = 'A'; lowalpha <= 'Z'; lowalpha++)
 {
 putchar(lowalpha);
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
