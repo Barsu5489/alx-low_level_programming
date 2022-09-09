@@ -10,14 +10,14 @@
 
 int main(void)
 {
-char alpha = 'a';
-while (alpha <= 'z')
+char lowalpha;
+for (lowalpha = 'a'; lowalpha <= 'z'; lowalpha++)
 {
-putchar(alpha);
-alpha = toupper(alpha);
-alpha++;
-putchar(alpha);
-alpha++;
+putchar(lowalpha);
+}
+for (lowalpha = 'A'; lowalpha <= 'Z'; lowalpha++)
+{
+putchar(lowalpha);
 }
 return (0);
 }
