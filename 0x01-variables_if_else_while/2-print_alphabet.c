@@ -13,8 +13,9 @@ int main(void)
 char character = 'a';
 while (character <= 'z')
 {
-putchar(character\n);
+putchar(character);
 character++;
+character\n
 }
 return (0);
 }
