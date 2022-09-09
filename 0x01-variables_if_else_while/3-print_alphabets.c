@@ -15,6 +15,7 @@ while (alpha <= 'z')
 {
 putchar(alpha);
 alpha = toupper(alpha);
+alpha++;
 putchar(alpha);
 alpha++;
 }
