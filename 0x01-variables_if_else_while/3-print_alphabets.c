@@ -10,9 +10,7 @@
 
 int main(void)
 {
-char alpa = 'a';
-srand(time(0));
-n = rand() - RAND_MAX / 2;
+char alpha = 'a';
 while (alpha <= 'z')
 {
 putchar(alpha);
