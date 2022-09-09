@@ -13,7 +13,7 @@ int main(void)
 char character = 'a';
 while (character <= 'z')
 {
-character = tolowercase(character);
+character = lowercase(character);
 putchar("%c\n", character);
 character++;
 }
