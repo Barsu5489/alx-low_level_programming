@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- *int _islower - islower
+ *_islower - contains parameter of int c
+ *Description: Returns 1 if c is lowercase
  *
  *Return: 0
  */
