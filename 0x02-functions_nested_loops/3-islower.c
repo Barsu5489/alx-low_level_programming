@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *int _islower(int c) - _islower
+ *int _islower - islower
  *
  *Return: 0
  */
 int _islower(int c)
-{	
+{
 	if (c >= 'a' && c <= 'z')
 	{
 	return (1);
