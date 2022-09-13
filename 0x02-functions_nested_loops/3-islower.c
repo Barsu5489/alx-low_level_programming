@@ -2,6 +2,7 @@
 
 /**
  *_islower - contains parameter of int c
+ *@c: islower
  *Description: Returns 1 if c is lowercase
  *
  *Return: 0
