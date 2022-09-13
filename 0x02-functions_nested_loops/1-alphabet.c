@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabate - func
+ * print_alphabet - func
  *
  */
 
