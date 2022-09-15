@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int mul - func name
+ * mul - func name
  * @a:first int
  * @b:second int
  * Return: 0
