@@ -2,6 +2,7 @@
 #define MAIN_H
 
 int _isupper(int c);
+int _isdigit(int c);
 void positive_or_negative(int i);
 
 int largest_number(int, int, int);
