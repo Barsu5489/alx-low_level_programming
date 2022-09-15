@@ -1,22 +1,25 @@
 #include "main.h"
 
 /**
- * more_numbers - func name
- *
+ * more_numbers -  checcks 0 through 9).
  */
 
 void more_numbers(void)
+
 {
-int a = 0;
-int b;
-while (a <= 10)
-{
-for (b = 0; b <= 14; b++)
-{
-_putchar(b);
-}
-	a++;
-	_putchar('\n');
-}
-_putchar('\n');
+
+	int a, b;
+
+	for (a = 0; a < 10; a++)
+	{
+		for (b = 0; b < 15; b++)
+		{
+			if (b / 10 != 0)
+			{
+				_putchar(b / 10 + '0');
+			}
+			_putchar(b % 10 + '0');
+		}
+		_putchar('\n');
+	}
 }
