@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  *_memset - concatenates two strings
  * @s:  pointer
  * @b: constant byte
