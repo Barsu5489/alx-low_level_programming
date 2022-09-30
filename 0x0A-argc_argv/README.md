@@ -1,1 +1,1 @@
-args
+argc and argv
