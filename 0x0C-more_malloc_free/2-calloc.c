@@ -3,15 +3,13 @@
 /**
  * _calloc - allocates memory of an array using malloc
  * @nmemb: Array of elemets
- * @size: Mr byte 
- *
+ * @size: Mr byte
  * Return: Always 0
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 
 {
-
 	char *arr;
 	unsigned int i;
 
