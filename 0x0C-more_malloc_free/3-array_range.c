@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* Array_range - Array of integers
+* array_range - Array of integers
 * @min: minimum number
 * @max: maxum numbe
 * Return: pointer to int array
