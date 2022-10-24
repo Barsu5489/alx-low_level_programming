@@ -1,4 +1,5 @@
-
+#ifndef _LISTS_
+#define _LISTS_
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -21,3 +22,4 @@ typedef struct list_s
 
 size_t print_list(const list_t *h);
 
+#endif
