@@ -10,7 +10,7 @@ size_t listint_len(const listint_t *h)
 	const listint_t *n = h;
 	size_t count = 0;
 
-	while (h != NULL)
+	while (n != NULL)
 	{
 		count++;
 		n = h->next;
